@@ -4,6 +4,8 @@ import Main from './pages/Main';
 import CadastroProdutos from './pages/CadastroProduto';
 import Listagem from './pages/Listagem';
 
+/*Article = rota*/
+
 function Article (){
     return(
         <BrowserRouter>

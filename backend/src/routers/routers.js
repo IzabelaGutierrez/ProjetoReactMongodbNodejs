@@ -3,6 +3,8 @@ const routers = express.Router();
 
 const produtoController = require ('../controllers/produtoController');
 
+/*CRUD*/
+
 routers.post('/produtos', produtoController.insert);
 
 routers.get('/produtos', produtoController.select);

@@ -34,7 +34,7 @@ class CadastroProduto extends Component{
                         name="codigo" 
                         id="codigo" 
                         placeholder="Insira código"
-                        value={this.state.produto.codigo}
+                        
                         onChange={this.handleInputChange}
                        />
                     </div>
